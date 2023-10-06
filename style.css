@@ -6,25 +6,35 @@
 body {
   height: 100vh;
   display: flex;
-  flex-direction: column;
   padding: 0;
   margin: 0;
 }
 
-a:visited {
+/* a:visited {
   color: white;
-}
+} */
 
 .bg {
   width: 500px;
+  height: 100vh;
 }
 
 .bg-container {
   position: relative;
 }
 
-.bg-credit {
+/* .bg-credit {
   color: white;
   position: absolute;
   bottom: 5px;
+} */
+
+.header,
+.footer {
+  background-color: #d9d9d9;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
 }
