@@ -2,3 +2,29 @@
   font-family: norse-bold;
   src: url(/fonts/Norse-Bold.otf);
 }
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+
+a:visited {
+  color: white;
+}
+
+.bg {
+  width: 500px;
+}
+
+.bg-container {
+  position: relative;
+}
+
+.bg-footer {
+  color: white;
+  position: absolute;
+  bottom: 5px;
+}
